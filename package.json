@@ -1,7 +1,7 @@
 {
-  "name": "paynxt",
+  "name": "Odoo",
   "version": "1.0.0",
-  "description": "Test for Atelier Design",
+  "description": "Odoo",
   "main": "index.js",
   "author": "Sylvain",
   "license": "ISC",

@@ -1,0 +1,11 @@
+@mixin CellBorder {
+    border-left: 1px solid $Black-30;
+}
+
+@mixin RowBorder {
+    border: 1px solid $Black-30;
+}
+
+@mixin BottomBorder {
+    border-bottom: 1px solid $Black-30;
+}

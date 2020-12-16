@@ -1,0 +1,44 @@
+.planning_gantt {
+    margin: 0;
+
+    .gantt_header {
+        background-color: $LightGray-Blue;
+    .gantt_row_sidebar {
+
+        p{ 
+            @include CellFont;
+        }
+    }
+
+    .gantt_header_slots{
+
+        .gantt_header_periode {
+            @include RowBorder;
+            p {
+                @include CellFont;
+            }
+        }
+        .gantt_header_days {
+            @include BottomBorder;
+            .gantt_header_dayCell{
+                @include CellFont;
+                @include CellBorder;
+            }
+        }
+    }
+    }
+    .gantt_people {
+        .gantt_people_sidebar {
+            @include RowBorder;
+        }
+        .gantt_days {
+        .gantt_days_slots {
+            @include RowBorder;
+            .gantt_dayCell {
+                @include CellBorder;
+                background-color: lightcoral;
+            }
+        }
+    }
+    }
+}

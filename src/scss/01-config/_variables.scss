@@ -1,10 +1,18 @@
 // ------ COLORS ----------
 
-$PrimaryColor : #FF6901;
-$SecondaryColor: #000940;
-$TertiaryColor : #F8F4EC;
+$PrimaryColor : #875A7B;
+$SecondaryColor: #00A09D;
 
-$White: #ffffff;
+$LightGray-Blue : #F2F4F6;
+$DarkGray : #666666;
+
+$Black-10 : #E7E7E7;
+$Black-15 : #D9D9D9;
+$Black-20 : #CBCBCB;
+$Black-25 : #BEBEBE;
+$Black-30 : #B0B0B0;
+
+$White: #ffffff; 
 
 // ------ ALPHA COLORS ----------
 
@@ -12,3 +20,6 @@ $SecondaryColor-a30: #00094030;
 
 // ------ BOX SHADOWS ----------
 $BoxShadow : -10px 10px 18px 0px $SecondaryColor-a30;
+
+
+
